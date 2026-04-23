@@ -20,6 +20,11 @@ background-position:center;
 color:white;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
 /* CA BACKGROUND */
 #bgECA{
 position:absolute;
