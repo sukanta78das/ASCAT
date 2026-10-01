@@ -21,10 +21,9 @@ color:white;
 }
 
 a{
-  color: white;
+  color: rgb(198, 252, 52);
   text-decoration: none;
 }
-
 /* CA BACKGROUND */
 #bgECA{
 position:absolute;
@@ -139,4 +138,85 @@ ul {
 
 li {
   margin-bottom: 6px;
+}
+
+.registration-table,
+.registration-info-table,
+.bank-details-table,
+.registration-form-table {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration-table th,
+.registration-table td,
+.registration-info-table th,
+.registration-info-table td,
+.bank-details-table th,
+.bank-details-table td,
+.registration-form-table th,
+.registration-form-table td {
+    padding: 14px 18px;
+    vertical-align: middle;
+}
+
+.registration-table thead th {
+    background-color: #f5f7fa;
+    font-weight: 600;
+    text-align: center;
+}
+
+.registration-table td {
+    text-align: center;
+}
+
+.registration-table td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+
+.registration-info-table th,
+.bank-details-table th,
+.registration-form-table th {
+    width: 32%;
+    background-color: #f5f7fa;
+    font-weight: 600;
+}
+
+.bank-details-table td {
+    text-align: left;
+}
+
+.registration-form-table {
+    margin-bottom: 0;
+}
+
+/* ================= PAYMENT QR CODE ================= */
+
+.payment-qr-table {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment-qr-table th {
+    width: 32%;
+    background-color: #f5f7fa;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.payment-qr-table td {
+    vertical-align: middle;
+}
+
+.payment-qr {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
 }
